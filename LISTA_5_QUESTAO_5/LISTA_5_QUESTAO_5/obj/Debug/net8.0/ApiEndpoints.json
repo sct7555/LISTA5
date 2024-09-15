@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "LISTA_5_QUESTAO_5.Controllers.ProdutoController",
+    "Method": "Adicionar",
+    "RelativePath": "API/AdicionarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "LISTA_5_QUESTAO_5.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_5_QUESTAO_5.Controllers.ProdutoController",
+    "Method": "Mostrar",
+    "RelativePath": "API/ListaProdutos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_5_QUESTAO_5.Controllers.ProdutoController",
+    "Method": "PesquisarProduto",
+    "RelativePath": "API/PesquisarPorCodigo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

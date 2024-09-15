@@ -1,0 +1,6 @@
+@LISTA_5_QUESTAO_4_HostAddress = http://localhost:5193
+
+GET {{LISTA_5_QUESTAO_4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

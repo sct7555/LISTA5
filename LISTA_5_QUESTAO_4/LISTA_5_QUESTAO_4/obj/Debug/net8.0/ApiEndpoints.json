@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "LISTA_5_QUESTAO_4.Controllers.AlunoController",
+    "Method": "Adicionar",
+    "RelativePath": "API/ALUNO/Adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "LISTA_5_QUESTAO_4.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_5_QUESTAO_4.Controllers.AlunoController",
+    "Method": "MostrarLista",
+    "RelativePath": "API/ALUNO/Lista de Alunos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LISTA_5_QUESTAO_4.Controllers.AlunoController",
+    "Method": "Remover",
+    "RelativePath": "API/ALUNO/Remover Aluno",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

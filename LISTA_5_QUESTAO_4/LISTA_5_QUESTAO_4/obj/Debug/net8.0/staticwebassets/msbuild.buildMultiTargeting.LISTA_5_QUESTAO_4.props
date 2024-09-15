@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LISTA_5_QUESTAO_4.props" />
+</Project>
